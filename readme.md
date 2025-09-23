@@ -31,6 +31,6 @@ Otvorite terminal (npr. Command Prompt) i instalirajte ih pomoću sljedeće nare
 * **Pokretanje kao Python skripta**: Pokrenite datoteku s nastavkom `.py` (npr. **quick_launcher.py**) iz terminala naredbom `python ime_datoteke.py`.
 * **Izrada samostalne aplikacije (.exe)**: Ako želite stvoriti samostalni **.exe** program, otvorite terminal u istom direktoriju kao i `.py` datoteka te pokrenite ovu naredbu:
 
-    `pyinstaller --onefile --windowed ime_datoteke.py`
+    `"C:\Users\USER_ACCOUNT\AppData\Local\Programs\Python\Python313\python.exe" -m PyInstaller --onefile --windowed quick_launch.py`
 
 Gotova **.exe** datoteka nalazit će se u novostvorenom direktoriju **dist**.
